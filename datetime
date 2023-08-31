@@ -1,0 +1,7 @@
+from datetime import datetime, timedelta
+
+current_date = datetime.now()
+print("Current Date:", current_date)
+
+tomorrow = current_date + timedelta(days=1)
+print("Tomorrow's Date:", tomorrow)
